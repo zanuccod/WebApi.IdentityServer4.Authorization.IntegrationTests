@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.809.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Book", "Book", "{1419D5D4-C3F5-4047-B7E6-9FC70B2B95CD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{535D2533-8360-4698-8B8A-9B41C25A43FF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book.API", "Book\Book.API\Book.API.csproj", "{5F78634D-1A1E-4353-809D-64137BDDE4A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{045182BC-4352-409C-B2EF-12807138655A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.API", "Identity\Identity.API\Identity.API.csproj", "{E9C16E61-6509-4ADF-A67E-B7220B3EC3D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,10 @@ Global
 		{5F78634D-1A1E-4353-809D-64137BDDE4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F78634D-1A1E-4353-809D-64137BDDE4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F78634D-1A1E-4353-809D-64137BDDE4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C16E61-6509-4ADF-A67E-B7220B3EC3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C16E61-6509-4ADF-A67E-B7220B3EC3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C16E61-6509-4ADF-A67E-B7220B3EC3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C16E61-6509-4ADF-A67E-B7220B3EC3D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -28,5 +34,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5F78634D-1A1E-4353-809D-64137BDDE4A0} = {1419D5D4-C3F5-4047-B7E6-9FC70B2B95CD}
+		{E9C16E61-6509-4ADF-A67E-B7220B3EC3D0} = {045182BC-4352-409C-B2EF-12807138655A}
 	EndGlobalSection
 EndGlobal

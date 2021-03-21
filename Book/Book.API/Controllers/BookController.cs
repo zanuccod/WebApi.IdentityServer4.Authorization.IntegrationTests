@@ -1,9 +1,11 @@
 ﻿using System.Collections.Generic;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Book.API.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize]
     public class BookController : Controller
     {
         [HttpGet]
