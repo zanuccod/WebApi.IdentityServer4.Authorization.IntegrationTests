@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{04
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.API", "Identity\Identity.API\Identity.API.csproj", "{E9C16E61-6509-4ADF-A67E-B7220B3EC3D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book.API.IntegrationTests", "Book\Book.API.IntegrationTests\Book.API.IntegrationTests.csproj", "{490B2245-965E-43B3-B0A1-5368ABE04D8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{E9C16E61-6509-4ADF-A67E-B7220B3EC3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9C16E61-6509-4ADF-A67E-B7220B3EC3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9C16E61-6509-4ADF-A67E-B7220B3EC3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{490B2245-965E-43B3-B0A1-5368ABE04D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{490B2245-965E-43B3-B0A1-5368ABE04D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{490B2245-965E-43B3-B0A1-5368ABE04D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{490B2245-965E-43B3-B0A1-5368ABE04D8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,5 +41,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5F78634D-1A1E-4353-809D-64137BDDE4A0} = {1419D5D4-C3F5-4047-B7E6-9FC70B2B95CD}
 		{E9C16E61-6509-4ADF-A67E-B7220B3EC3D0} = {045182BC-4352-409C-B2EF-12807138655A}
+		{490B2245-965E-43B3-B0A1-5368ABE04D8F} = {1419D5D4-C3F5-4047-B7E6-9FC70B2B95CD}
 	EndGlobalSection
 EndGlobal

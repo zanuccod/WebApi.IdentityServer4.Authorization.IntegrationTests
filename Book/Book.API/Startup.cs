@@ -23,6 +23,16 @@ namespace Book.API
         {
             services.AddControllers();
 
+            AddAuthentication(services);
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Book.API", Version = "v1" });
+            });
+        }
+
+        protected virtual void AddAuthentication(IServiceCollection services)
+        {
             services
                 .AddAuthentication(options =>
                 {
@@ -37,11 +47,6 @@ namespace Book.API
                     options.ApiName = "BookApi";
                     options.ApiSecret = "book_secret_key";
                 });
-
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Book.API", Version = "v1" });
-            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

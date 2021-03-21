@@ -28,7 +28,6 @@ namespace Identity.API
                     })
                 .AddInMemoryApiResources(new List<ApiResource>
                     {
-                        // defined in the startup.xs of WebApi
                         new ApiResource("BookApi")
                         {
                             ApiSecrets = { new Secret("book_secret_key".Sha256()) },
@@ -41,7 +40,6 @@ namespace Identity.API
                 })
                 .AddInMemoryClients(new List<Client>
                     {
-                        // defined when clients call identityServer to request the token
                         new Client
                         {
                             ClientId = "client_id",
