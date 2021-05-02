@@ -20,7 +20,7 @@ namespace Book.API.IntegrationTests
         protected override void AddAuthentication(IServiceCollection services)
         {
             // used to prevent "NotFound" errors because WebApi is on another project file
-            services.AddControllers().AddApplicationPart(typeof(BookController).Assembly);
+            services.AddControllers().AddApplicationPart(typeof(Startup).Assembly);
 
             services
                 .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
